@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Animes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site de Animes</h1>
+        <nav>
+            <ul>
+                <li><a href="#animes">Animes</a></li>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="#criticas">Críticas</a></li>
+                <li><a href="#comunidade">Comunidade</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="animes">
+        <h2>Animes</h2>
+        <!-- Adicione informações sobre animes aqui -->
+    </section>
+
+    <section id="noticias">
+        <h2>Notícias</h2>
+        <!-- Adicione notícias sobre animes aqui -->
+    </section>
+
+    <section id="criticas">
+        <h2>Críticas</h2>
+        <!-- Adicione críticas de animes aqui -->
+    </section>
+
+    <section id="comunidade">
+        <h2>Comunidade</h2>
+        <!-- Adicione um fórum ou área de discussão aqui -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Site de Animes</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+/* Estilos básicos */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
